@@ -74,7 +74,7 @@ article{
 }
 
 article h1{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
     font-size: 423%;
     font-weight: bold;
     color: white;
@@ -84,7 +84,7 @@ article p{
     margin-top: 30px;
     line-height: 1.5em;
     text-align: justify;
-    font-family: Arial; 
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
     padding: 10px 50px;
     padding-bottom: 80px;
     color: whitesmoke;
@@ -114,7 +114,7 @@ main div{
 
 main div h2{
     font-size: 30px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'IBM Plex Sans Condensed', sans-serif; 
     color: black;
     padding-top: 30px;
     padding-bottom: 50px;
