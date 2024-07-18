@@ -332,12 +332,13 @@ form select{
 .newsletter button{
     background-color: #DC052D;
     color: white;
-    font-size: 90%;
+    font-size: 130%;
     font-family: 'IBM Plex Sans Condensed', sans-serif;
     font-weight: bold;
-    padding: 1.1%;
+    padding: 0.5%;
     border: #DC052D;
     border-radius: 5%;
+    box-sizing: border-box;
     /* position: absolute;
     top:  1.5% */
 }
