@@ -456,7 +456,7 @@ form input:valid {
     }
 
     form span{
-        font-size: 80%;
+        font-size: 90%;
         padding-left: 3%;
         padding-right: 3%;
 
@@ -465,6 +465,7 @@ form input:valid {
     .nl p{
         margin-top: 3%;
         font-size: 95%;
+        padding-bottom: 3.5%;
     }
 
     .nl div{
