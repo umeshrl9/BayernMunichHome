@@ -133,11 +133,12 @@ main div ul li{
 }
 
 .caption{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
     font-weight: bold;
     padding: 5px;
     margin-top: 10px;
     color: black;
+    font-size: 150%;
 }
 
 main div ul li img{
@@ -146,7 +147,7 @@ main div ul li img{
     height: 60%;
     width: 60%;
     position: relative;
-    background-color: rgb(237, 28, 202);
+    background-color: rgb(108, 185, 244);
 }
 
 main div ul li img:hover{
