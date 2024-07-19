@@ -380,7 +380,7 @@ form input:valid {
 }
 
 .allianz img {
-    max-width: 100%;
+    width: 100%;
     margin-bottom: -5px;
 }
 
@@ -396,7 +396,7 @@ footer ul {
 
 footer ul li {
     display: inline-block;
-    width: 4%;
+    width: 8%;
 }
 
 footer svg {
@@ -540,6 +540,11 @@ footer h4 a {
     .nl div {
         margin-top: 10%;
         margin-bottom: 10%;
+    }
+
+    svg{
+        width: 80%;
+        height: 80%;
     }
 }
 
