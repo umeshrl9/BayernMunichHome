@@ -1,23 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-header{
+header {
     background-color: #DC052D;
     padding: 1%;
 }
 
-.header-list{
+.header-list {
     text-align: center;
 }
 
-.header-list li{
+.header-list li {
     width: 7%;
     display: inline-block;
 }
 
-nav{
+nav {
     background-color: #C60428;
     position: sticky;
     top: -1px;
@@ -25,13 +25,13 @@ nav{
     width: 100%;
 }
 
-nav ul{
+nav ul {
     margin-left: 6.7%;
     text-align: justify;
     white-space: nowrap;
 }
 
-nav a li{
+nav a li {
     display: inline-block;
     width: 10%;
     font-family: Arial, Helvetica, sans-serif;
@@ -42,7 +42,7 @@ nav a li{
 }
 
 
-nav a{
+nav a {
     text-decoration: none;
     color: white;
     font-family: var(--fonts-generic-textSemiBold-fontFamily);
@@ -50,37 +50,37 @@ nav a{
     font-size: medium;
 }
 
-.search li:hover{
+.search li:hover {
     border: none;
 }
 
-.banner img{
+.banner img {
     width: 100%;
     margin-bottom: -5px;
 }
 
-nav li:hover{
+nav li:hover {
     border-bottom: 2px solid white;
 }
 
-.search li{
+.search li {
     margin-left: 45%;
 }
 
-article{
+article {
     text-align: center;
     padding: 73px;
     padding-bottom: 40px;
 }
 
-article h1{
+article h1 {
     font-family: 'IBM Plex Sans Condensed', sans-serif;
     font-size: 423%;
     font-weight: bold;
     color: white;
 }
 
-article p{
+article p {
     margin-top: 30px;
     line-height: 1.5em;
     text-align: justify;
@@ -91,7 +91,10 @@ article p{
     color: whitesmoke;
 }
 
-p::selection, h1::selection, h5::selection, h2::selection{
+p::selection,
+h1::selection,
+h5::selection,
+h2::selection {
     background-color: #F63232;
     color: white;
 }
@@ -102,37 +105,37 @@ article p::first-line {
     color: white;
 }
 
-main{
+main {
     background-color: rgb(13, 13, 56);
 }
 
-main div{
+main div {
     text-align: center;
     margin-top: -40px;
     padding-bottom: 50px;
     background-color: rgb(255, 255, 255);
 }
 
-main div h2{
+main div h2 {
     font-size: 30px;
-    font-family: 'IBM Plex Sans Condensed', sans-serif; 
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
     color: black;
     padding-top: 30px;
     padding-bottom: 50px;
     margin: 0;
 }
 
-main div ul{
+main div ul {
     text-align: center;
     white-space: nowrap;
 }
 
-main div ul li{
+main div ul li {
     display: inline-block;
     width: 25%;
 }
 
-.caption{
+.caption {
     font-family: 'IBM Plex Sans Condensed', sans-serif;
     font-weight: bold;
     padding: 5px;
@@ -141,7 +144,7 @@ main div ul li{
     font-size: 150%;
 }
 
-main div ul li img{
+main div ul li img {
     border-radius: 10px;
     box-shadow: #4B4B4B;
     height: 60%;
@@ -150,59 +153,61 @@ main div ul li img{
     background-color: rgb(108, 185, 244);
 }
 
-main div ul li img:hover{
+main div ul li img:hover {
     top: -2px;
 }
 
-.shadow{
-    box-shadow: 7px 10px 110px rgba(203, 137, 127, 0.83); /* Adjust the values as needed */
-    
+.shadow {
+    box-shadow: 7px 10px 110px rgba(203, 137, 127, 0.83);
+    /* Adjust the values as needed */
+
 }
 
-.matches{
+.matches {
     background-color: #DC052D;
-    padding-bottom: 5%  ;
+    padding-bottom: 5%;
 }
 
-.matches header{
+.matches header {
     text-align: left;
     padding-left: 17%;
     padding-top: 5%;
 }
 
-.matches header h1{
+.matches header h1 {
     color: white;
     font-size: 300%;
     font-family: 'IBM Plex Sans Condensed', sans-serif;
 }
 
-.matches ul{
+.matches ul {
     padding-left: 17%;
     padding-top: 4%;
     padding-right: 15%;
     padding-bottom: 4%;
 }
 
-.matches ul li{
+.matches ul li {
     display: inline-block;
     width: 30%;
     margin-right: 3%;
 
 }
-.matches ul li div{
+
+.matches ul li div {
     display: inline-block;
     position: relative;
 }
 
-.matches ul li div img{
+.matches ul li div img {
     width: 100%;
     margin-bottom: -5px;
-} 
+}
 
-.description{
+.description {
     background-color: rgb(255, 255, 255);
     padding: 0px;
-    padding-top: 5%; 
+    padding-top: 5%;
     width: 100%;
     text-align: center;
     padding: 0px;
@@ -210,21 +215,21 @@ main div ul li img:hover{
     box-sizing: border-box;
 }
 
-.description h3{
+.description h3 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 130%;
     padding: 5%;
     padding-bottom: 3%;
 }
 
-.description h4{
+.description h4 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 110%;
     margin-top: 0%;
     padding-top: 0%;
 }
 
-.subtitles{
+.subtitles {
     line-height: 1em;
     text-align: justify;
     font-family: 'IBM Plex Sans Condensed', sans-serif;
@@ -241,12 +246,12 @@ main div ul li img:hover{
     color: #4B4B4B
 }
 
-.description span{  
+.description span {
     padding: 10%;
 }
 
 
-.description a span{
+.description a span {
     background-color: #DC052D;
     color: azure;
     display: block;
@@ -259,23 +264,23 @@ main div ul li img:hover{
     padding: 3%;
 }
 
-.description a{
+.description a {
     text-decoration: none;
 }
 
-.description a span:hover{
+.description a span:hover {
     background-color: rgb(140, 224, 13);
 }
 
-.matches div:hover{
-    top:-5px;
+.matches div:hover {
+    top: -5px;
 }
 
-.nl{
+.nl {
     background-color: rgb(37, 38, 126);
 }
 
-.nl div{
+.nl div {
     margin-top: 3%;
     margin-bottom: 5%;
     margin-left: 4%;
@@ -288,14 +293,14 @@ main div ul li img:hover{
     padding-left: 1%;
 }
 
-.nl div h1{
+.nl div h1 {
     font-family: 'IBM Plex Sans Condensed', sans-serif;
     padding-bottom: 2%;
     font-size: 200%;
     color: white;
 }
 
-form input{
+form input {
     padding: 0.5%;
     font-size: 130%;
     font-family: 'IBM Plex Sans Condensed', sans-serif;
@@ -307,11 +312,11 @@ form input{
     border: none;
 }
 
-form{
+form {
     position: relative;
 }
 
-form select{
+form select {
     padding: 0.5%;
     font-size: 130%;
     font-family: Arial, Helvetica, sans-serif;
@@ -325,7 +330,7 @@ form select{
     border: none;
 }
 
-.newsletter p{
+.newsletter p {
     padding: 0.4%;
     padding-top: 1%;
     padding-bottom: 0.2%;
@@ -334,7 +339,7 @@ form select{
     color: white;
 }
 
-.newsletter button{
+.newsletter button {
     background-color: #DC052D;
     color: white;
     font-size: 130%;
@@ -348,24 +353,25 @@ form select{
     top:  1.5% */
 }
 
-.newsletter button:active{
+.newsletter button:active {
     background-color: rgb(241, 94, 94);
 }
 
 input::placeholder,
 textarea::placeholder {
-  color: #ffffff; /* Change this to your desired color */
+    color: #ffffff;
+    /* Change this to your desired color */
 }
 
-form input:hover{
+form input:hover {
     background-color: #657b87;
 }
 
-form select:hover{
+form select:hover {
     background-color: #657b87;
 }
 
-.newsletter button:hover{
+.newsletter button:hover {
     background-color: rgb(241, 94, 94);
 }
 
@@ -373,13 +379,49 @@ form input:valid {
     border: 3px solid #71D300;
 }
 
-.allianz img{
+.allianz img {
     max-width: 100%;
     margin-bottom: -5px;
 }
 
+footer {
+    background-color: #DC052D;
+    text-align: center;
+}
+
+footer ul {
+    padding-top: 8%;
+    padding-bottom: 5%;
+}
+
+footer ul li {
+    display: inline-block;
+    width: 4%;
+}
+
+footer svg {
+    color: inherit;
+}
+
+footer h3 {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+}
+
+footer h4 {
+    color: rgb(231, 235, 235);
+    padding: 5px;
+    font-family: 'IBM Plex Sans Condensed';
+}
+
+footer h4 a {
+    color: rgb(231, 235, 235);
+}
+
 @media screen and (max-width: 1030px) {
-    nav a li{
+    nav a li {
         display: inline-block;
         width: 15%;
         font-family: Arial, Helvetica, sans-serif;
@@ -389,77 +431,77 @@ form input:valid {
         text-align: center;
     }
 
-    nav{
+    nav {
         position: sticky;
         top: -0.005%;
     }
 
-    .search li{
+    .search li {
         margin-left: 20%;
     }
 
-    .matches ul li{
+    .matches ul li {
         display: inline-block;
         width: 30%;
         margin-right: 2%;
-    
-    } 
+
+    }
 }
 
 @media screen and (max-width: 500px) {
-    nav a li{
+    nav a li {
         width: 20%;
         font-size: 80%;
     }
 
-    nav{
+    nav {
         position: sticky;
         top: -1px;
     }
 
-    .search li{
+    .search li {
         margin-left: -3%;
     }
 
-    .header-list li{
+    .header-list li {
         width: 12%;
-        height:auto;
+        height: auto;
         display: inline-block;
     }
 
-    main div h2{
+    main div h2 {
         font-size: 20px;
     }
 
-    article h1{
+    article h1 {
         font-size: 300%;
     }
 
-    article{
+    article {
         padding: 25px;
     }
 
-    article p{
+    article p {
         padding: 22px;
         padding-bottom: 80px;
         padding-top: 5px;
         font-size: 75%;
     }
 
-    article h1{
+    article h1 {
         text-align: justify;
-            font-size: 200%;
-        }
-    
-    .matches ul li{
-    display: inline-block;
-    width: 100%;
-    margin-right: 3%;
-    padding-bottom: 10%;
+        font-size: 200%;
+    }
 
-}
+    .matches ul li {
+        display: inline-block;
+        width: 100%;
+        margin-right: 3%;
+        padding-bottom: 10%;
 
-    form input{
+    }
+
+    form input {
         display: block;
         width: 95%;
         margin: auto;
@@ -468,7 +510,7 @@ form input:valid {
         font-size: 94%;
     }
 
-    form select{
+    form select {
         display: block;
         width: 97.8%;
         margin: auto;
@@ -477,102 +519,101 @@ form input:valid {
         font-size: 94%;
     }
 
-    form button{
+    form button {
         margin-left: 1.3%;
         width: 35%;
     }
 
-    form span{
+    form span {
         font-size: 80%;
         padding-left: 3%;
         padding-right: 3%;
 
     }
 
-    .nl p{
+    .nl p {
         margin-top: 3%;
         font-size: 95%;
         padding-bottom: 3.5%;
     }
 
-    .nl div{
+    .nl div {
         margin-top: 10%;
         margin-bottom: 10%;
     }
 }
 
 @media screen and (max-width: 400px) {
-    nav a li{
+    nav a li {
         width: 20%;
         font-size: 70%;
     }
 
-    .search li{
+    .search li {
         margin-left: -7%;
     }
 
-    main div ul li img{
+    main div ul li img {
         height: 100%;
         width: 100%;
     }
 
-    article h1{
-    text-align: justify;
+    article h1 {
+        text-align: justify;
         font-size: 180%;
     }
 }
 
 @media screen and (max-width: 425px) {
-    nav a li{
+    nav a li {
         font-size: 55%;
     }
 
-    nav ul{
+    nav ul {
         padding-top: -50%;
     }
 
-    nav{
+    nav {
         position: sticky;
         top: 0%;
     }
 
-    .search li{
+    .search li {
         margin-left: -6%;
     }
 
-    .header-list li{
+    .header-list li {
         width: 12%;
-        height:auto;
+        height: auto;
         display: inline-block;
     }
 
-    main div h2{
+    main div h2 {
         font-size: 20px;
     }
 
-    article h1{
+    article h1 {
         text-align: justify;
         font-size: 180%;
     }
 
-    article{
+    article {
         padding: 20px;
     }
 
-    article p{
+    article p {
         padding: 17px;
         padding-bottom: 80px;
         font-size: 65%;
     }
 
-    .caption{
+    .caption {
         font-size: small;
     }
 
-    main div ul li img{
+    main div ul li img {
         height: 80%;
         width: 80%;
     }
-    
-}
 
+}
