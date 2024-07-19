@@ -546,6 +546,14 @@ footer h4 a {
         width: 80%;
         height: 80%;
     }
+
+    footer h4 {
+        font-size: 10%;
+    }
+    
+    footer h3{
+        font-size: 40%;
+    }
 }
 
 @media screen and (max-width: 400px) {
