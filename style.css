@@ -106,7 +106,8 @@ article p::first-line {
 }
 
 main {
-    background-color: rgb(13, 13, 56);
+    background-color: 
+    #121f38
 }
 
 main div {
@@ -277,7 +278,7 @@ main div ul li img:hover {
 }
 
 .nl {
-    background-color: rgb(39, 41, 135);
+    background-color: #000e29
 }
 
 .nl div {
