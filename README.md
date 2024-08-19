@@ -1,5 +1,6 @@
 # BayernMunichHome
-Made a homepage design of my favourite football team, Bayern Munich using HTML and basic CSS. (Not a clone)
+A homepage design of my favourite football team, Bayern Munich using HTML and basic CSS. (Not a clone)
+Tech-stack used: HTML, CSS
 
 DISCLAIMER:
 The images used in this project do not belong to me, this is a non-commerical personal project to learn. Images will be removed immediately upon request.
