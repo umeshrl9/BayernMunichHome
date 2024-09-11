@@ -580,11 +580,14 @@ footer h4 a {
 
 @media screen and (max-width: 425px) {
     nav a li {
-        font-size: 55%;
+        font-size: 60%;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
 
     nav ul {
         padding-top: -50%;
+        margin-left: 4%;
     }
 
     nav {
@@ -608,7 +611,7 @@ footer h4 a {
 
     article h1 {
         text-align: justify;
-        font-size: 180%;
+        font-size: 200%;
     }
 
     article {
@@ -616,9 +619,9 @@ footer h4 a {
     }
 
     article p {
-        padding: 17px;
+        padding: 10px;
         padding-bottom: 80px;
-        font-size: 65%;
+        font-size: 90%;
     }
 
     .caption {
