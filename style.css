@@ -86,8 +86,8 @@ article p {
     text-align: justify;
     font-family: 'IBM Plex Sans Condensed', sans-serif;
     padding: 10px 50px;
-    padding-bottom: 80px;
-    font-size: 115%;
+    padding-bottom: 40px;
+    font-size: 140%;
     color: whitesmoke;
 }
 
@@ -286,7 +286,7 @@ main div ul li img:hover {
     margin-bottom: 5%;
     margin-left: 4%;
     margin-right: 4%;
-    background-color: #0f1d36;
+    background-color: #1b2648;
     display: inline-block;
     width: 90%;
     padding-top: 1%;
@@ -633,4 +633,147 @@ footer h4 a {
         width: 80%;
     }
 
+}
+
+@media screen and (max-width: 767px) and (min-width: 500px){
+    article h1{
+        text-align: left;
+        font-size: 275%;
+    }
+
+    article{
+        padding: 40px;
+    }
+
+    article p{
+        padding: 0;
+        padding-bottom: 50px;
+    }
+
+    nav ul li{
+        width: 20%;
+    }
+
+    .search li{
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+        width: 10%;
+    }
+
+    main div ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main div ul li{
+        width: 100%;
+    }
+
+    .header-list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-list li img{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .header-list li {
+        width: 12%;
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .header-list li .header-logo img{
+        height:100%;
+        width: 90%;
+    }
+
+    .matches ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .matches ul li{
+        width: 65%;
+        margin-bottom: 30px;
+    }
+
+    .matches header{
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .newsletter p{
+        padding-top: 20px;
+        font-size: 100%;
+    }
+
+    form input{
+        font-size: 110%;
+    }
+
+    form select{
+        font-size: 110%;
+    }
+
+    .newsletter button{
+        font-size: 110%;
+    }
+
+    footer ul li{
+        width: 15%;
+    }
+
+    footer h4{
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .header-list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-list li img{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .header-list li {
+        width: 12%;
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .header-list li .header-logo img{
+        height:100%;
+        width: 100%;
+    }
+
+    main div ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main div ul li{
+        width: 100%;
+    }
+    
+    .caption{
+        font-size: large;
+    }
 }
